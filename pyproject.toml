@@ -61,7 +61,7 @@ omit = ["tests/*"]
 branch = true
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.9"
 libadvian = "^1.7"
 click = "^8.1"
 
