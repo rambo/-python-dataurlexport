@@ -1,6 +1,6 @@
 [project]
 name = "dataurlexport"
-version = "1.0.0"
+version = "1.1.0"
 description = "Post-process RUNE outputs and export data urls as files"
 authors = [{name="Eero af Heurlin", email="eero.afheurlin@iki.fi" }]
 homepage = "https://github.com/rambo/python-dataurlexport/"
