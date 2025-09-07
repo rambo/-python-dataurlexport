@@ -37,6 +37,7 @@ class Exporter:
                     bincontent = base64.b64decode(match.group("b64data"))
                     binhash = hashlib.sha256(bincontent).hexdigest()
                     _mtype, ext = match.group("mimetype").split("/", maxsplit=2)
+                    ext = ext.split("+")[0]
                     binpath = assets / f"{binhash}.{ext}"
                     if not binpath.is_file():
                         binpath.write_bytes(bincontent)
